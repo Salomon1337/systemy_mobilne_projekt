@@ -1,0 +1,17 @@
+
+y	java:S116"dRename this field "make_a_new_account_button" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÉð§
+l	java:S116"XRename this field "log_in_button" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¼ÿ
+q
+java:S1450"\Remove the "log_in_button" field and declare it as a local variable in the relevant methods.(è¼ÿ
+}
+java:S1450"gRemove the "mainAccountLoginEditText" field and declare it as a local variable in the relevant methods.(û‰Ðº
+€
+java:S1450"jRemove the "mainAccountPasswordEditText" field and declare it as a local variable in the relevant methods.(¶¶©ñ
+x
+java:S1450"cRemove the "mainAccountViewModel" field and declare it as a local variable in the relevant methods.(í¸Ì
+~
+java:S1450"hRemove the "make_a_new_account_button" field and declare it as a local variable in the relevant methods.(æÉð§
+H
+java:S1611!"2Remove the parentheses around the "view" parameter(î„Äž
+H
+java:S1611&"2Remove the parentheses around the "view" parameter(±ÄÝù

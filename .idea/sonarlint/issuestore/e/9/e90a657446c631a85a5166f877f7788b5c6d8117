@@ -1,0 +1,19 @@
+
+T
+java:S18741">Remove this use of "startActivityForResult"; it is deprecated.(³…•
+W
+java:S1612:"AReplace this lambda with method reference 'adapter::setAccounts'.(˜ü¢ö
+—
+java:S1186>"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±
+—
+java:S1186I"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±¾ê
+e
+java:S1874O"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ÉÎÍïıÿÿÿÿ
+‚
+java:S3252Z"gUse static access with "com.google.android.material.snackbar.BaseTransientBottomBar" for "LENGTH_LONG".(‹çèşúÿÿÿÿ
+‚
+java:S3252c"gUse static access with "com.google.android.material.snackbar.BaseTransientBottomBar" for "LENGTH_LONG".(‹çèşúÿÿÿÿ
+T
+java:S1874…">Remove this use of "startActivityForResult"; it is deprecated.( Ê¨I
+>
+java:S1604-"(Make this anonymous inner class a lambda(Ó°æÓ

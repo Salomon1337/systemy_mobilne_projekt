@@ -1,0 +1,9 @@
+
+E
+java:S1656"/Remove or correct this useless self-assignment.(ÃÞª½
+E
+java:S1656"/Remove or correct this useless self-assignment.(÷ã´½
+y
+java:S4165"cRemove this useless assignment; "login" already holds the assigned value along all execution paths.(ÃÞª½
+|
+java:S4165"fRemove this useless assignment; "password" already holds the assigned value along all execution paths.(÷ã´½

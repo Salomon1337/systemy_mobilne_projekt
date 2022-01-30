@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PasswordManager</string>
+    <string name="next">Dalej</string>
+    <string name="back">Wstecz</string>
+    <string name="Login">Login</string>
+    <string name="Email">Email</string>
+    <string name="URI">URI</string>
+    <string name="Log_in">Zaloguj</string>
+    <string name="hint_account_login">Login...</string>
+    <string name="hint_account_email">Email...</string>
+    <string name="hint_account_uri">URI...</string>
+    <string name="hint_account_name">Nazwa...</string>
+    <string name="save">Zapisz</string>
+    <string name="account_added">Konto dodane</string>
+    <string name="empty_not_saved">Account not saved because there are empty fields</string>
+    <string name="Password">Hasło</string>
+    <string name="Register">Stwórz nowe konto</string>
+    <string name="hint_account_password">Hasło...</string>
+    <string name="generate_password">Wygeneruj hasło</string>
+    <string name="register_account">Załóż konto</string>
+    <string name="account_add_failure">Błąd danych</string>
+    <string name="account_added_successfully">Konto zostało stworzone</string>
+    <string name="login_failure">Błędne dane logowania</string>
+    <string name="note_search_bar_hint">Wyszukaj</string>
+</resources>
