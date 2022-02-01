@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".EditAccountActivity">
+    tools:context=".EditAccountActivity"
+    android:background="@color/gunmetal">
 
 
     <EditText
@@ -17,7 +18,9 @@
         android:hint="@string/hint_account_name"
         android:inputType="textAutoComplete"
         android:padding="6dp"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textColor="@color/beau_blue"
+        android:textColorHint="@color/beau_blue"/>
 
     <EditText
         android:id="@+id/edit_account_login"
@@ -26,7 +29,9 @@
         android:hint="@string/hint_account_login"
         android:inputType="textAutoComplete"
         android:padding="6dp"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textColor="@color/beau_blue"
+        android:textColorHint="@color/beau_blue"/>
 
     <EditText
         android:id="@+id/edit_account_email"
@@ -35,7 +40,9 @@
         android:hint="@string/hint_account_email"
         android:inputType="textEmailAddress"
         android:padding="6dp"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textColor="@color/beau_blue"
+        android:textColorHint="@color/beau_blue"/>
 
     <EditText
         android:id="@+id/edit_account_password"
@@ -44,7 +51,9 @@
         android:hint="@string/hint_account_password"
         android:inputType="textAutoComplete"
         android:padding="6dp"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textColor="@color/beau_blue"
+        android:textColorHint="@color/beau_blue"/>
 
     <EditText
         android:id="@+id/edit_account_uri"
@@ -53,20 +62,33 @@
         android:hint="@string/hint_account_uri"
         android:inputType="textAutoComplete"
         android:padding="6dp"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textColor="@color/beau_blue"
+        android:textColorHint="@color/beau_blue"
+        />
 
     <Button
         android:id="@+id/button_save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/beau_blue"
         android:text="@string/save"
-        app:strokeColor="#BFDBF7" />
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:strokeColor="#BFDBF7"
+        android:textColor="@color/gunmetal"
+        android:padding="10dp"/>
 
     <Button
         android:id="@+id/button_generate_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/generate_password" />
+        android:backgroundTint="@color/beau_blue"
+        android:text="@string/generate_password"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/gunmetal"
+        android:padding="10dp"/>
 
 
 </LinearLayout>

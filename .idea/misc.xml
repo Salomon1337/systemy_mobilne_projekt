@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/salom/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/ic_baseline_add_24_gunmetal.xml" value="0.18" />
+        <entry key="..\:/Users/salom/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/ic_baseline_add_24_seaweed.xml" value="0.1075" />
         <entry key="..\:/Users/salom/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1935" />
         <entry key="..\:/Users/salom/AndroidStudioProjects/PasswordManager/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.11914323962516733" />
         <entry key="..\:/Users/salom/AndroidStudioProjects/PasswordManager/app/src/main/res/layout-w936dp/activity_login.xml" value="0.1390625" />
@@ -13,7 +14,7 @@
         <entry key="..\:/Users/salom/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/salom/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/activity_main_menu.xml" value="0.22" />
         <entry key="..\:/Users/salom/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/activity_register.xml" value="0.31741573033707865" />
-        <entry key="..\:/Users/salom/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/login_activity.xml" value="0.67" />
+        <entry key="..\:/Users/salom/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/login_activity.xml" value="0.25311203319502074" />
         <entry key="..\:/Users/salom/AndroidStudioProjects/PasswordManager/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.18" />
       </map>
     </option>

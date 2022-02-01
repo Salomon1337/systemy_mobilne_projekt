@@ -6,6 +6,7 @@
     tools:context=".MainMenuActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/gunmetal"
     >
     <EditText
         android:id="@+id/account_search_edit_text"
@@ -20,18 +21,24 @@
         android:layout_marginRight="10dp"
 
         android:imeOptions="actionSearch"
-        android:inputType="text" />
+        android:inputType="text"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/beau_blue"
+        android:textColorHint="@color/beau_blue"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:textColor="@color/beau_blue"
+        android:textColorHint="@color/beau_blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.147" />
+        app:layout_constraintVertical_bias="0.081" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/add_button"
@@ -46,7 +53,9 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.979"
         app:srcCompat="@drawable/ic_baseline_add_24_gunmetal"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:background="@color/beau_blue"
+        android:backgroundTint="@color/beau_blue"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

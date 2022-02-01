@@ -96,7 +96,7 @@ public class MainMenuActivity extends AppCompatActivity {
             editAccount.setPassword(data.getStringExtra(EditAccountActivity.EXTRA_EDIT_ACCOUNT_PASSWORD));
             editAccount.setUri(data.getStringExtra(EditAccountActivity.EXTRA_EDIT_ACCOUNT_URI));
             accountViewModel.update(editAccount);
-            Snackbar.make(findViewById(R.id.main_layout),getString(R.string.account_added),Snackbar.LENGTH_LONG).show();
+            Snackbar.make(findViewById(R.id.main_layout),getString(R.string.the_data_has_been_changed),Snackbar.LENGTH_LONG).show();
             editAccount = null;
         }
 

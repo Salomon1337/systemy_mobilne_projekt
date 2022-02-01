@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".RegisterActivity">
+    tools:context=".RegisterActivity"
+    android:background="@color/gunmetal">
 
     <EditText
         android:id="@+id/register_account_login"
@@ -14,7 +15,9 @@
         android:hint="@string/hint_account_login"
         android:inputType="textAutoComplete"
         android:padding="6dp"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textColor="@color/beau_blue"
+        android:textColorHint="@color/beau_blue"/>
 
     <EditText
         android:id="@+id/register_account_password"
@@ -23,11 +26,19 @@
         android:hint="@string/hint_account_password"
         android:inputType="textAutoComplete"
         android:padding="6dp"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+
+        android:textColor="@color/beau_blue"
+        android:textColorHint="@color/beau_blue"/>
 
     <Button
         android:id="@+id/create_account_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/beau_blue"
+        android:textColor="@color/gunmetal"
+
         android:text="@string/register_account" />
 </LinearLayout>

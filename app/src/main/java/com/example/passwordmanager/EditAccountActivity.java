@@ -92,7 +92,7 @@ public class EditAccountActivity extends AppCompatActivity {
                     String email = editEmailEditText.getText().toString();
                     replyIntent.putExtra(EXTRA_EDIT_ACCOUNT_EMAIL,email);
                     String password = editPasswordEditText.getText().toString();
-                    replyIntent.putExtra(EXTRA_EDIT_ACCOUNT_NAME,name);
+                    replyIntent.putExtra(EXTRA_EDIT_ACCOUNT_PASSWORD,password);
                     String uri = editUriEditText.getText().toString();
                     replyIntent.putExtra(EXTRA_EDIT_ACCOUNT_URI,uri);
                     setResult(RESULT_OK,replyIntent);

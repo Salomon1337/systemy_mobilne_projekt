@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".MainMenuActivity">
+    tools:context=".MainMenuActivity"
+    android:background="@color/gunmetal">
 
 
     <TextView
@@ -15,5 +16,8 @@
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/beau_blue"
+        android:textColorHint="@color/beau_blue"
+
         />
 </LinearLayout>

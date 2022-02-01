@@ -14,7 +14,7 @@
         android:layout_marginTop="104dp"
         android:text="@string/app_name"
         android:textAlignment="center"
-        android:textColor="@color/gunmetal"
+        android:textColor="@color/beau_blue"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,6 +32,8 @@
         android:inputType="textAutoComplete"
         android:padding="6dp"
         android:textSize="18sp"
+        android:textColor="@color/beau_blue"
+        android:textColorHint="@color/beau_blue"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -44,6 +46,8 @@
         android:inputType="textAutoComplete"
         android:padding="6dp"
         android:textSize="18sp"
+        android:textColor="@color/beau_blue"
+        android:textColorHint="@color/beau_blue"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -55,6 +59,9 @@
         android:text="@string/Register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/gunmetal"
         app:layout_constraintTop_toBottomOf="@+id/log_in_button"
         android:backgroundTint="@color/beau_blue"/>
 
@@ -64,9 +71,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="284dp"
         android:text="@string/Log_in"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/beau_blue"
+        android:textColor="@color/gunmetal"
+        android:textSize="18dp"
+        android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent" />
 
 

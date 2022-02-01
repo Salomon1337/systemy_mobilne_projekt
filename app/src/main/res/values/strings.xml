@@ -22,4 +22,5 @@
     <string name="account_added_successfully">Konto zostało stworzone</string>
     <string name="login_failure">Błędne dane logowania</string>
     <string name="note_search_bar_hint">Wyszukaj</string>
+    <string name="the_data_has_been_changed">Dane zostały zmienione</string>
 </resources>
